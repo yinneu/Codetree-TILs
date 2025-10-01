@@ -36,8 +36,8 @@ public class Main {
 
         int count = diff / 7;
         
-        int temp = diff & 7;
-        if (temp < dayOfWeek.get(A)) {
+        int temp = diff % 7;
+        if (dayOfWeek.get(A) <= temp) {
             count++;
         }
 
