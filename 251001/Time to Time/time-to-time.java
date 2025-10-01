@@ -8,8 +8,8 @@ public class Main {
         int d = sc.nextInt();
         // Please write your code here.
 
-        int first = 2 * 60 + 5;
-        int second = 4 * 60 + 1;
+        int first = a * 60 + b;
+        int second = c * 60 + d;
 
         System.out.println(second - first);
     }
